@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+.title {
+	text-align: center;
+	font-size: 2em;
+	color: green;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+	margin: auto;
+    width: 435px;
+    border: 1px solid black;
+}
+
+.field {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    border: 1px solid black;
+}
+
+.hammer {
+	cursor: url('../img/hammer.png'), auto;
+}
+.hammer-boom {
+	cursor: url('../img/hammer-boom.png'), auto;
+}
+
+.goblin {
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/goblin.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.status{
+	width: 200px;
+	border: 1px solid black;
+	margin:  15px auto;
+}
